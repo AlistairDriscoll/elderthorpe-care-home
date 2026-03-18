@@ -12,9 +12,9 @@ export default function Header() {
                 </Link>
 
                 <nav className="flex gap-6 text-sm font-medium">
-                    <a href="#about" className="hover:text-blue-600">
+                    <Link to={"/about"} className="hover:text-blue-600">
                         About
-                    </a>
+                    </Link>
                     <a href="#care" className="hover:text-blue-600">
                         Care
                     </a>
