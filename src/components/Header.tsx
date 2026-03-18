@@ -15,18 +15,17 @@ export default function Header() {
                     <Link to={"/about"} className="hover:text-blue-600">
                         About
                     </Link>
-                    <a href="#care" className="hover:text-blue-600">
-                        Care
-                    </a>
-                    <a href="#gallery" className="hover:text-blue-600">
+                    <Link to={"/events"} className="hover:text-blue-600">
+                        Elderthorpe Events
+                    </Link>
+                    <Link to={"/gallery"} className="hover:text-blue-600">
                         Gallery
-                    </a>
-                    <a
-                        href="#contact"
+                    </Link>
+                    <Link to={"/contact"}
                         className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
                     >
                         Contact
-                    </a>
+                    </Link>
                 </nav>
             </div>
         </header>
