@@ -11,17 +11,17 @@ export default function Hero() {
 
                 <div className="flex justify-center gap-4">
                     <a
-                        href="#contact"
+                        href="/contact"
                         className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700"
                     >
                         Arrange a Visit
                     </a>
 
                     <a
-                        href="#care"
+                        href="/about"
                         className="border border-gray-300 px-6 py-3 rounded-lg hover:bg-gray-100"
                     >
-                        Our Care
+                        About Our Care
                     </a>
                 </div>
             </div>
