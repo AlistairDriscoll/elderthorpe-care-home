@@ -12,17 +12,17 @@ export default function Header() {
                 </Link>
 
                 <nav className="flex gap-6 text-sm font-medium">
-                    <Link to={"/about"} className="hover:text-blue-600">
+                    <Link to={"/about"} className="hover:text-blue-600 my-auto">
                         About
                     </Link>
-                    <Link to={"/events"} className="hover:text-blue-600">
+                    <Link to={"/events"} className="hover:text-blue-600 my-auto">
                         Elderthorpe Events
                     </Link>
-                    <Link to={"/gallery"} className="hover:text-blue-600">
+                    <Link to={"/gallery"} className="hover:text-blue-600 my-auto">
                         Gallery
                     </Link>
                     <Link to={"/contact"}
-                        className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+                        className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 my-auto"
                     >
                         Contact
                     </Link>
